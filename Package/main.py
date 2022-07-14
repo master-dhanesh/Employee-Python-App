@@ -130,26 +130,26 @@ ReadSingleEmp = emp.ReadSingleEmp
 DeleteEmp = emp.DeleteEmp
 ReadAllEmp = emp.ReadAllEmp
 
-# while(True):
-#     print("1. Create Employee")
-#     print("2. Read Single Employee")
-#     print("3. Update Employee")
-#     print("4. Delete Employee")
-#     print("0. Exit Application")
-#     try:
-#         n = int(input("Enter Your Choice: "))
-#         if n == 1:
-#             print(CreateEmp())
-#         elif n == 2:
-#             print(ReadSingleEmp())
-#         elif n == 3:
-#             print(UpdateEmp())
-#         elif n == 4:
-#             print(DeleteEmp())
-#         elif n == 69:
-#             print(ReadAllEmp())
-#         elif n == 0:
-#             print("APPLICATION CLOSED!")
-#             exit(0)
-#     except Exception as err:
-#         print("ERROR >>", err)
+while(True):
+    print("1. Create Employee")
+    print("2. Read Single Employee")
+    print("3. Update Employee")
+    print("4. Delete Employee")
+    print("0. Exit Application")
+    try:
+        n = int(input("Enter Your Choice: "))
+        if n == 1:
+            print(CreateEmp())
+        elif n == 2:
+            print(ReadSingleEmp())
+        elif n == 3:
+            print(UpdateEmp())
+        elif n == 4:
+            print(DeleteEmp())
+        elif n == 69:
+            print(ReadAllEmp())
+        elif n == 0:
+            print("APPLICATION CLOSED!")
+            exit(0)
+    except Exception as err:
+        print("ERROR >>", err)
